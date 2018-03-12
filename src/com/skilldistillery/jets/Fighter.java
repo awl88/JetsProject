@@ -10,8 +10,9 @@ public class Fighter extends Jet{
 	}
 	
 	public void fight() {
-		System.out.println("Vrooooom...");
-		System.out.println("Pew pew pew...");
+		System.out.println(super.getModel() + ": Vrooooom...");
+		System.out.println(super.getModel() + ": Pew pew pew...");
+		System.out.println();
 	}
 	
 

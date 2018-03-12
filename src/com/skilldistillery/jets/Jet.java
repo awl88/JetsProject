@@ -22,7 +22,7 @@ public abstract class Jet {
 	//Method to calculate how long a Jet can be in the air for and print it out
 	public void fly() {
 		Double timeInAir = range / speed;
-		System.out.println(timeInAir);
+		System.out.println(model + " can fly in the air for " + timeInAir + " hours before they need to refuel");
 	}
 	
 	// toString method
